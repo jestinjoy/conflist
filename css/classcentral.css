@@ -1,0 +1,189 @@
+/*!
+ * ClassCentral v1
+ *
+ * Copyright 2012 Abhishek Gupta @uxabhishek
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+*/
+.hero-unit {
+  font-family: 'Nixie One', cursive;
+  background-color: rgb(0,136,204);
+  opacity: .75; 
+  filter:alpha(opacity=75);
+  margin-top:40px;
+  padding:40px;
+}
+.hero-unit h1{
+    font-family: 'Nixie One', cursive;
+    color:#222222;
+    font-size:44px;
+    line-height:50px;
+    padding-top:10px;
+    padding-bottom:20px;
+    padding-left:10px;
+}
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+.learnmorelink {
+  font-weight:normal;
+  font-size:16px;
+  color: #ffffff;
+  padding:10px;
+  cursor:pointer;
+}
+.btn {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a.learnmorelink{
+  color: #ffffff;
+  text-decoration: none;
+}
+a.learnmorelink:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.table-striped tbody tr:nth-child(odd) td, .table-striped tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+.table-striped tbody tr:nth-child(even) td, .table-striped tbody tr:nth-child(even) th {
+  background-color: #ffffff;
+}
+.tabletitle {
+  font-family: 'Nixie One', cursive;
+  color:#ffffff;
+  font-weight:normal;
+  padding-bottom:10px;
+  font-size:24px;
+}
+thead {
+  background-color:white;
+}
+.modal {
+  max-height: 700px;
+  overflow: auto;
+  width: 760px;
+  margin: -250px 0 0 -380px;
+}
+.news {
+  background-color: #010101;
+  -webkit-border-radius:  0 4px 4px;
+  -moz-border-radius:  0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  margin:-40px;
+  padding:20px 50px 10px 50px;
+  margin-top:20px;
+  margin-bottom:-60px;
+}
+p.newstitle {
+  color: white;
+  text-decoration: none;
+  padding-right:10px;
+  margin-top:8px;
+  font-size:14px;
+  margin-top:2px;
+}
+.news .span9 {
+  margin-left:-10px;
+}
+
+
+.nav-pills > li {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:14px;
+}
+.nav-pills > li > a {
+  color:white;
+}
+
+.nav-pills > li > a:hover {
+  color:#0088cc;
+}
+
+.nav-stacked > li {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:14px;
+}
+.nav-stacked > li > a {
+  color:#0088cc;
+}
+
+.nav-stacked > li > a:hover {
+  color:#ffffff;
+  background-color:#0088cc;
+}
+.socialmedia.nav-pills > li > a {
+  width:30px;
+  height:30px;
+  padding:0;
+  margin-right:8px;
+  background-color:transparent;
+}
+a.social1{
+  width: 30px;
+  height: 30px;
+  background: transparent url('../img/socialmedia.png') no-repeat 0 0;
+  display: block;
+}
+a.social1:hover {
+  background-position: 0 -30px;
+}
+a.social2 {
+  width: 30px;
+  height: 30px;
+  background: transparent url('../img/socialmedia.png') no-repeat -30px 0;
+  display: block;
+}
+a.social2:hover {
+  background-position: -30px -30px;
+}
+a.social3 {
+  width: 30px;
+  height: 30px;
+  background: transparent url('../img/socialmedia.png') no-repeat -60px 0;
+  display: block;
+}
+a.social3:hover {
+  background-position: -60px -30px;
+}
+a.social4 {
+  width: 30px;
+  height: 30px;
+  background: transparent url('../img/socialmedia.png') no-repeat -90px 0;
+  display: block;
+}
+a.social4:hover {
+  background-position: -90px -30px;
+}
+.classcentralfooter {
+  margin:40px 0 80px 0;
+  text-align:center;
+}
+
+.classcentralfooter .social{
+    padding-top: 6px;
+}
+
+.pp_default{
+    display: block;
+    position: absolute;
+}
+
+table.table thead .sorting,
+table.table thead .headerSortDown,
+table.table thead .headerSortUp {
+    cursor: pointer;
+    *cursor: hand;
+}
+ 
+table.table thead .sorting { background: url('../img/sort_both.png') no-repeat center right; }
+table.table thead .headerSortDown { background: url('../img/sort_asc.png') no-repeat center right; }
+table.table thead .headerSortUp { background: url('../img/sort_desc.png') no-repeat center right; }
+ 
