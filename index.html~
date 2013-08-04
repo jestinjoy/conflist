@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <title>Conflist - A complete list of Conferences, Workshops, Seminars from India</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="Class-Central" content="">
-        <meta name="Dhawal Shah + Abhishek Gupta @uxabhishek" content="">
+        <meta name="Conflist" content="">
+        <meta name="Jestin Joy" content="">
 
         <!-- Le styles -->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -35,6 +35,7 @@
                     <li><a href="#ongoingcourses">Upcoming Conferences</a></li>
                     <li><a href="#upcomingcourses">Upcoming Workshops/Seminars</a></li>
                     <li><a href="#finishedcourses">Recent Deadline Expired Conferences</a></li>
+	            <li><a href="https://docs.google.com/forms/d/1wefRoH5sPuRHExfc9k1A2IkO5Ny2X9iPOt7R1EZcrag/viewform">Submit Conference/Workshop Details</a></li>
                 </ul>
 
                 <div class="news">
@@ -86,7 +87,7 @@
  <!--------------------------------------- learn more modal content ends ---------------------------------------------------------------->
  <!--------------------------------------- learn more modal content ends ---------------------------------------------------------------->
  <!--------------------------------------- learn more modal content ends ---------------------------------------------------------------->
-            <h1 class="tabletitle" id="ongoingcourses">Upcoming Conferences</h1>     
+            <h1 class="tabletitle" id="ongoingcourses"><strong>Upcoming Conferences</strong></h1>     
             <table class="table table-striped table-bordered" id="ongoing">  
                 <thead>
                     <tr>   
@@ -104,8 +105,8 @@
                         <td><a href="http://www.socio.org.uk/icadiwt/" target="_blank" title="ICADIWT 2013"> Fifth International Conference on the Applications of Digital Information and Web Technologies (ICADIWT 2013)</a></td>
                         <td>Computer Science</td>
                         <td>  Amrita University, Banglore, India</td>
-			<td data-timestamp="1317427200">9 December - 11 December, 2013</td>
-                        <td data-timestamp="1317427200">August 31, 2013</td>
+			<td>December 9 - December 11, 2013</td>
+                        <td>August 31, 2013</td>
                         <td>Banglore, Karnataka</td>
                         <td>India</td>
                     </tr>
@@ -122,7 +123,7 @@
  <!--------------------------------------- learn more modal content ends ---------------------------------------------------------------->
  <!--------------------------------------- learn more modal content ends ---------------------------------------------------------------->
 
-            <h1 class="tabletitle" id="upcomingcourses">Upcoming Workshops/Seminars</h1>    
+            <h1 class="tabletitle" id="upcomingcourses"><strong>Upcoming Workshops/Seminars</strong></h1>    
             <table class="table table-striped table-bordered" id="upcoming">  
                 <thead>
                     <tr>   
@@ -139,7 +140,7 @@
                         <td><a href="http://www.icfwrajagiri.in/Workshop_Schedule.asp" target="_blank" title="ICFW"> International Conference and Workshop on Fractals and Wavelets</a></td>
                         <td>Methematics</td>
                         <td>Rajagiri School of Engineering and Technology (RSET), Kerala</td>
-                        <td data-timestamp="1317427200">9 Novemeber - 12 November, 2013</td>
+                        <td>Novemeber 9 - November 12, 2013</td>
                         <td>Cochin, Kerala</td>
                         <td>India</td>
                     </tr>
@@ -147,7 +148,7 @@
                         <td><a href="http://in.pycon.org/2013/" target="_blank" title="Pycon 2013"> PyCon India</a></td>
                         <td>Computer Science</td>
                         <td>NIMHANS Convention Centre, Banglore</td>
-                        <td data-timestamp="1317427200">30 August - 1 September, 2013</td>
+                        <td>August 30 - September 1, 2013</td>
                         <td>Banglore, Karnataka</td>
                         <td>India</td>
                     </tr>
@@ -169,29 +170,29 @@
  <!--------------------------------------- learn more modal content ends ---------------------------------------------------------------->
  <!--------------------------------------- learn more modal content ends ---------------------------------------------------------------->
 
-            <h1 class="tabletitle" id="finishedcourses">Deadline Expired Conferences</h1>     
+            <h1 class="tabletitle" id="finishedcourses"><strong>Deadline Expired Conferences</strong></h1>     
             <table class="table table-striped table-bordered" id="past">  
                 <thead>
                     <tr>
-                        
-                        <th class="sorting">Course Name</th>            
-                        <th class="sorting">Instructor(s)</th>
-                        <th class="sorting">Stream</th>
-                        <th class="sorting">Start Date</th> 
-                        <th class="sorting">Length</th>
-                        <th class="sorting">Initiative</th>
+                         <th class="sorting">Conference Name</th>            
+                        <th class="sorting">Main Area</th>
+                        <th class="sorting">College</th>
+			<th class="sorting">Date</th> 
+                        <th class="sorting">Deadline</th> 
+                        <th class="sorting">Place</th>
+                        <th class="sorting">Country</th>
 
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a href="http://www.socio.org.uk/icadiwt/" target="_blank" title="ICADIWT 2013"> Fifth International Conference on the Applications of Digital Information and Web Technologies (ICADIWT 2013)</a></td>
-                        <td>Computer Science</td>
-                        <td>  Amrita University, Banglore, India</td>
-			<td data-timestamp="1317427200">9 December - 11 December, 2013</td>
-                        <td data-timestamp="1317427200">August 31, 2013</td>
-                        <td>Banglore, Karnataka</td>
-                        <td>India</td>
+                        <td><a></a></td>
+                        <td></td>
+                        <td></td>
+			<td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                     </tr>
                 </tbody>
             </table>
@@ -209,18 +210,8 @@
             <footer>
                 <ul class="classcentralfooter nav nav-pills">              
                     <li><a data-toggle="modal" href="#learnmore">Learn more</a></li>
-                    <li><a href="mailto:contact@class-central.com">contact@class-central.com</a></li>          
-                    <li class="social">
-                        <!-- AddThis Button BEGIN -->
-                        <div class="addthis_toolbox addthis_default_style ">
-                            <a class="addthis_button_facebook_like" fb:like:layout="button_count" fb:like:href="http://www.class-central.com"></a>
-                            <a class="addthis_button_tweet" tw:url="http://www.class-central.com" tw:via="classcentral"></a>
-                            <a class="addthis_button_google_plusone" g:plusone:size="medium" g:plusone:href="http://www.class-central.com"></a>
-                        </div>
-                        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4ed5948263b508c1"></script>
-                        <!-- AddThis Button END -->
-                    </li>
-                    <li class="social"><a href="https://github.com/dhawalhshah/class-central" class="gitforked-button gitforked-forks gitforked-watchers">Fork</a></li>
+                    <li><a href="mailto:conference.lists@gmail.com">conference.lists@gmail.com</a></li>          
+                     <li><a href="https://github.com/classcentral/slashpixel">Made With Slashpixel theme </a></li></li><li class="social"><a href="https://github.com/classcentral/slashpixel" class="gitforked-button gitforked-forks gitforked-watchers">Fork</a></li>
                 </ul>
             </footer>
 
