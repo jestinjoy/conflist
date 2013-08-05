@@ -269,9 +269,10 @@
             <footer>
                 <ul class="classcentralfooter nav nav-pills">              
                     <li><a data-toggle="modal" href="#learnmore">Learn more</a></li>
-                    <li><a href="mailto:conference.lists@gmail.com">conference.lists@gmail.com</a></li>          
+                    <li><a href="mailto:conference.lists@gmail.com">conference.lists@gmail.com</a></li> 
+			<li><a href="http://www.tinycounter.com" target="_blank" title="hit counter"><img border="0" alt="hit counter" src="http://mycounter.tinycounter.com/index.php?user=cfplist"></a></li>        
                      <li><a href="https://github.com/classcentral/slashpixel">Made With Slashpixel theme </a></li></li><li class="social"><a href="https://github.com/classcentral/slashpixel" class="gitforked-button gitforked-forks gitforked-watchers">Fork</a></li>
-                 <li><a href="http://www.tinycounter.com" target="_blank" title="hit counter"><img border="0" alt="hit counter" src="http://mycounter.tinycounter.com/index.php?user=cfplist"></a></li>
+                 
                 </ul>
             </footer>
 
